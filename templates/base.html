@@ -14,8 +14,12 @@
     <body>
         <header class="site highlight">
             {% if SITESUBTITLES %}
-                <h1 class="stamp lrot bs">{{ SITESUBTITLES[0] }}</h1>
-                <h1 class="stamp rrot rfloat">{{ SITESUBTITLES[1] }}</h1>
+				<h1 class="stamp lrot bs"><a href="{{ SITEURL }}">{{ SITESUBTITLES[0] }}</a></h1>
+				{% if TOYURL %}
+					<h1 class="stamp rrot rfloat"><a href="{{ TOYURL }}">{{ SITESUBTITLES[1] }}</a></h1>
+				{% else %}
+					<h1 class="stamp rrot rfloat">{{ SITESUBTITLES[1] }}</h1>
+				{% endif %}
             {% else %}
                 <h1 class="stamp lrot">{{ SITESUBTITLE }}</h1>
             {% endif %}

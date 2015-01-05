@@ -37,8 +37,9 @@ body > div.wrapper {
 
 /******** HEADER ********/
 header.site { padding: 50px 0 100px 0; }
-header.site > h1 { font-size: 4em; }
+header.site > h1 { font-size: 3.5em; }
 header.site > h1:nth-child(2) { position: relative; z-index: -1; top: -5px; text-align: right; }
+header a { color: white; }
 
 /******* NAV ********/
 nav { width: 200px; text-align: right; }
@@ -58,7 +59,7 @@ footer.site section.lfloat { margin-right: 50px; }
 footer.site ul { list-style-type: none; margin: 0; padding: 0; }
 footer.site ul lh { line-height: 1.5em; } 
 footer.site p { margin: 0; padding: 0; }
-footer.site { font-size: 0.8em; }
+footer.site { font-size: 1em; }
 
 section.content { margin-left: 220px; }
 section.content > div.body { margin: 0 10px; }
@@ -85,7 +86,7 @@ article > footer > div.social {
     margin: 0; padding: 0 0.6em;
 }
 
-section.content h1 { font-size: 2em; margin-bottom: 5px; }
+section.content h1 { font-size: 1.8em; margin-bottom: 5px; }
 
 article h2 > a {
     color: #000;
@@ -96,9 +97,9 @@ article h2 > a {
 }
 article h2 > a:hover { color: #F36C00; text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2); }
 article > div.summary { margin: 20px 15px; }
-article > div.content { margin: 0 15px; }
-article > footer { font-size: 0.8em; margin: 20px 15px; color: #666; }
-article h2 { margin: 5px 0; }
+article > div.content { margin: 0 15px; font-size: 1.2em;}
+article > footer { font-size: 1em; margin: 20px 15px; color: #666; }
+article h2 { margin: 5px 0; font-size: 1.8em;}
 article > div.content { margin-bottom: 20px; }
 
 p.paginator { text-align: right; }

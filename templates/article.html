@@ -13,6 +13,7 @@
         {{ article.locale_date }}
         {% if article.author %}
         <address>
+			<img width="20" height="20" src="{{ article.author_gravatar }}"></img>
             <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
         </address>
         {% endif %}
