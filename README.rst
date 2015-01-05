@@ -6,8 +6,8 @@ Just another theme for `Pelican`_.
 Screenshot
 ==========
 
-  .. image:: screenshot.png
-     :alt: screenshot
+.. image:: screenshot.png
+   :alt: screenshot
 
 Installation
 ============
