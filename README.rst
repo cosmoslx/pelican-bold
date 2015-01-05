@@ -3,6 +3,12 @@ pelican-bold
 
 Just another theme for `Pelican`_.
 
+Screenshot
+==========
+
+  .. image:: screenshot.png
+     :alt: screenshot
+
 Installation
 ============
 
