@@ -2,21 +2,22 @@ pelican-bold
 ============
 
 Just another theme for `Pelican`_.
+Used in cosmoslx's `blog`_.
 
 Screenshot
-==========
+----------
 
 .. image:: screenshot.png
    :alt: screenshot
 
 Installation
-============
+------------
 
 * Clone the repo: ``git clone git://github.com/demianbrecht/pelican-bold.git``
-* Set ``THEME`` to the cloned path
+* Use ``pelican-themes`` to install the theme
 
 Supported features
-==================
+------------------
 
 * Articles
   * Categories
@@ -26,14 +27,14 @@ Supported features
 * Social
 
 Currently unsupported features
-==============================
+------------------------------
 
 * Translations
 * Links
 * Menuitems
 
 Supported settings
-==================
+------------------
 
 * ``FEED_DOMAIN``
 
@@ -49,7 +50,7 @@ Supported settings
   ``/static/css/base.css`` (``ul.social a[...]``)
 
 Custom settings
-===============
+---------------
 
 There are two settings custom to this theme:
 
@@ -66,3 +67,4 @@ There are two settings custom to this theme:
     SITESUBTITLES = ('Left Side', 'Right Side')
 
 .. _`Pelican`: http://docs.getpelican.com/en/3.1.1/
+.. _`blog`: http://blog.cosmoslx.me
