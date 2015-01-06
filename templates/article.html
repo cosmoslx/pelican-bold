@@ -24,6 +24,18 @@
 
     <div class="content">
         {{ article.content }}
+		{% if article.series %}
+		<br /><hr />
+		<!-- <p>This post is part {{ article.series.index }} of the "{{ article.series.name }}" series:</p> -->
+		<p>本篇是《{{ article.series.name }}》系列中的第{{ article.series.index }}篇：</p>
+		<ol class="parts">
+			{% for part_article in article.series.all %}
+			<li {% if part_article == article %}class="active"{% endif %}>
+				<a href='{{ SITEURL }}/{{ part_article.url }}'>{{ part_article.title }}</a>
+			</li>
+			{% endfor %}
+		</ol>
+		{% endif %}
     </div><!-- /.entry-content -->
 
     {% if DISQUS_SITENAME %}
